@@ -1,0 +1,8 @@
+# Editable Git install with no remote (biology-test==0.1.0)
+-e /home/dmitry/work/freelance/biology-test
+greenlet==3.0.1
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+SQLAlchemy==2.0.23
+typing_extensions==4.8.0

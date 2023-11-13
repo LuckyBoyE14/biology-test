@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/images">
+    <file>static/images/next.png</file>
+    <file>static/images/avatar.png</file>
+    <file>static/images/main.png</file>
+    <file>static/images/botanic.png</file>
+    <file>static/images/zoo.png</file>
+    <file>static/images/genetic.png</file>
+    <file>static/images/fizio.png</file>
+  </qresource>
+  <qresource prefix="/tests">
+    <file>static/categories.json</file>
+  </qresource>
+</RCC>
