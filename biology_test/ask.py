@@ -25,6 +25,9 @@ class AskWidget(QWidget):
 
         self.ui.pushButton.clicked.connect(self.click_continue)
 
+    def closeEvent(self, event):
+        self.closed.emit(0)
+
     def get_next_question(self, questions) -> Generator[dict[Any, Any], None, None]:
         """
         Генератор для обновления вопросов

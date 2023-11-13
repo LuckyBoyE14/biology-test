@@ -58,4 +58,4 @@ class Ui_Form(object):
 "</style></head><body style=\" font-family:\'Sans Serif\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'helvetica neue\'; font-size:16pt; color:#222222; background-color:#ffffff;\">В результате какого процесса образуются споры:</span></p></body></html>"))
         self.pushButton.setText(_translate("Form", "Продолжить"))
-import main_rc
+import biology_test.main_rc

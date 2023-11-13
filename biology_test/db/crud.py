@@ -177,10 +177,15 @@ class Interface:
         Создание администратора
         """
         with self.__session_maker() as session:
-            print("Создание администратора системы...")
+            print("Создание администратора системы и классов...")
+            classes = ['6 "Б"', '7 "Б"', '8 "Б"', '9 "Б"']
+            classes = [
+                ClassRoom(name=class_name) for class_name in classes
+            ]
+            print(classes)
             user = User(name="admin", surname="admin", class_id=None,
                         password=md5(b"admin").hexdigest(), is_admin=True)
-            session.add(user)
+            session.add_all([ user, *classes ])
             session.commit()
             print("Администратор создан:", user)
             self.__create_categories()

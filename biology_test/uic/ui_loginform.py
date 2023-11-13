@@ -105,4 +105,4 @@ class Ui_loginForm(object):
         self.labelClass.setText(_translate("loginForm", "Класс:"))
         self.labelPassword.setText(_translate("loginForm", "Пароль:"))
         self.loginButton.setText(_translate("loginForm", "Войти"))
-import main_rc
+import biology_test.main_rc

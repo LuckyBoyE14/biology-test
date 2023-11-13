@@ -153,4 +153,4 @@ class Ui_MainWindow(object):
         self.menu.setTitle(_translate("MainWindow", "&Файл"))
         self.actionLogout.setText(_translate("MainWindow", "Сменить пользователя"))
         self.actionExit.setText(_translate("MainWindow", "&Выход"))
-import main_rc
+import biology_test.main_rc
